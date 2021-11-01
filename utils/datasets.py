@@ -917,10 +917,10 @@ def verify_image_label(args):
         return [None, None, None, None, nm, nf, ne, nc, msg]
 
 
-def dataset_stats(path='coco128.yaml', autodownload=False, verbose=False, profile=False, hub=False):
+def dataset_stats(path='n2data.yaml', autodownload=False, verbose=False, profile=False, hub=False):
     """ Return dataset statistics dictionary with images and instances counts per split per class
     To run in parent directory: export PYTHONPATH="$PWD/yolov5"
-    Usage1: from utils.datasets import *; dataset_stats('coco128.yaml', autodownload=True)
+    Usage1: from utils.datasets import *; dataset_stats('n2data.yaml', autodownload=True)
     Usage2: from utils.datasets import *; dataset_stats('../datasets/coco128_with_yaml.zip')
     Arguments
         path:           Path to data.yaml or data.zip (with data.yaml inside data.zip)

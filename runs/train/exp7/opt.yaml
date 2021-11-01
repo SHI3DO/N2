@@ -1,6 +1,6 @@
 weights: weights/yolov5s.pt
 cfg: models/yolov5s.yaml
-data: data/coco128.yaml
+data: data/n2data.yaml
 hyp: data\hyps\hyp.scratch.yaml
 epochs: 5
 batch_size: 16
